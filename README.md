@@ -1,2 +1,2 @@
-plugin for nagios to interface with the cloud watch monitoring system
+plugin for nagios to interface with the cloud watch monitoring system  
 ./check_cloudwatch_status.sh -i IDENTIFIER -r REGION -a USERNAME -s PASSWORD --type rds --metric FreeStorageSpace --warning 1024 --critical 512 --statistic Minimum
